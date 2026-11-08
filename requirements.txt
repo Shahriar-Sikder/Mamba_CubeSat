@@ -1,0 +1,13 @@
+# Core (CPU). For GPU later, reinstall torch from https://pytorch.org with the matching CUDA wheel.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+scikit-learn>=1.3
+pandas>=2.0
+
+# Notebook tooling
+jupyterlab>=4.0
+ipykernel>=6.25
+nbconvert>=7.0
